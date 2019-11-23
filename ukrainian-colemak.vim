@@ -14,6 +14,7 @@ loadkeymap
 Q Й
 W Ц
 F У
+P К
 G Е
 J Н
 L Г
