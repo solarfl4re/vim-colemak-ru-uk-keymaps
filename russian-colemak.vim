@@ -1,19 +1,16 @@
 " Vim Keymap file for Russian characters, using Colemak
 " Maintainer:   David Lane <david@davidlane.io>
 " Last Changed: 2019 Nov 23
-
-" All characters are given literally, conversion to another encoding (e.g.,
-" UTF-8) should work.
+" From/To maps:
+"QWFPGJLUY:{}|ARSTDHNEIO"ZXCVBKM<>?`
+"qwfpgjluy;[]\arstdhneio'zxcvbkm,./`
+"ЙЦУКЕНГШЩЗХЪЁФЫВАПРОЛДЖЭЯЧСМИТЬБЮ?]
+"йцукенгшщзхъёфывапролджэячсмитьбю/]
 scriptencoding utf-8
 
 let b:keymap_name = "ru"
 
 loadkeymap
-"QWFPGJLUY:{}|ARSTDHNEIO"ZXCVBKM<>?`
-"qwfpgjluy;[]\arstdhneio'zxcvbkm,./`
-""Ru
-"ЙЦУКЕНГШЩЗХЪЁФЫВАПРОЛДЖЭЯЧСМИТЬБЮ?]
-"йцукенгшщзхъёфывапролджэячсмитьбю/]
 Q Й
 W Ц
 F У
