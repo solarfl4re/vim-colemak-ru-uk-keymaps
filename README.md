@@ -20,3 +20,13 @@ Vim's [`keymap`](https://vimhelp.org/options.txt.html#%27keymap%27) seemed to be
 >        :echo globpath(&rtp, "keymap/*.vim")
 
 I use neovim and put them in `~/.config/nvim/keymap/`.
+
+For easy use, add the following to your `init.vim` or `.vimrc`:
+```vim
+nmap <leader>r :set keymap=russian-colemak<CR>:set spelllang=ru,en<CR>
+" Ukrainian + Colemak langmap
+nmap <leader>u :set keymap=ukrainian-colemak<CR>:set spelllang=uk,en<CR>
+nmap <leader>e :set keymap=<CR>:set spelllang=en<CR>
+```
+Press `<leader>+r` for Russian, and `<leader>+u` for Ukrainian. It also sets up spellchecking for that language plus English (I usually write in a mix of the three!).
+
